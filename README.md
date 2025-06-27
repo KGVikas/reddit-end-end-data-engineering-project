@@ -8,7 +8,7 @@ This project demonstrates a complete end-to-end data engineering pipeline using 
 
 ## 📊 Architecture
 
-![pipeline](https://github.com/user-attachments/assets/ea3eced0-3700-4e6a-9f55-2917179ca03a)
+
 
 * **Extract**: Triggered by AWS CloudWatch, a Lambda function fetches data from Reddit API and stores it in the raw S3 bucket.
 * **Transform**: Another Lambda function is triggered on object creation in the raw S3 bucket. It cleans and transforms the data, then stores it in a separate S3 path for processed data.
