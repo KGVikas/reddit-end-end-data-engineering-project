@@ -66,7 +66,7 @@ Here’s a snapshot of the final dashboard:
 
 ---
 
-## 🧪 Sample Snowflake Queries
+## Sample Snowflake Queries
 
 ```sql
 -- Total number of posts
